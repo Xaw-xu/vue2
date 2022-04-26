@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <p style="color: red;">{{a}}</p>
+        <span>{{b.name}}</span>
+        <div>{{e}}</div>
+        <my-c></my-c>
+    </div>
+    <script src="../dist/umd/vue.js"></script>
+    <script>
+        // let vm = new Vue({
+        //     el:"#app",
+        //     data() {
+        //         return {
+        //             a:'a',
+        //             b:{
+        //                 name:'name'
+        //             },
+        //             c:[{name:'d'}],
+        //             e:[[1,2,3,4]]
+        //         }
+        //     },
+        //     computed:{},
+        //     created() {
+        //         // console.log(this.b,'2222');
+        //     },
+        //     mounted() {
+        //         // console.log(this.c,'ccc');
+        //     },
+        //     components:{
+        //         'my-c':{
+        //             template:`<div>333333333</div>`
+        //         }
+        //     }
+        // })
+        // Vue.component('my-c',{
+        //     template:`<div>fdfdfd</div>`
+        // })
+        // vm.a = 'abbb'
+        // console.log(vm,'========');
+        // setTimeout(() => {
+        //     vm.a = 'aaaa'
+        //     vm.e[0].push(5,6)
+        //     // vm._update(vm._render())
+        // }, 1000);
+        // console.log(vm._data);
+        // console.log(vm.$el.innerHTML);
+        // vm.$nextTick(()=>{
+            // console.log(vm.$el.innerHTML);
+        // })
+    </script>
+</body>
+</html>

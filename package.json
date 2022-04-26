@@ -1,0 +1,20 @@
+{
+  "name": "handlewritevue2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup": "^2.70.0",
+    "rollup-plugin-serve": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:dev": "rollup -c",
+    "serve": "cross-env ENV=development rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
